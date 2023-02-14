@@ -8,8 +8,8 @@ settings():
     # Set the number of command lines to display per help page
     user.help_max_command_lines_per_page = 50
 
-    # Set the number of contexts to display per help page
-    user.help_max_contexts_per_page = 20
+    # Set the max number of contexts display per page in help
+    user.help_max_contexts_per_page = 25
 
     # Set the scroll amount for continuous scroll/gaze scroll
     user.mouse_continuous_scroll_amount = 80
