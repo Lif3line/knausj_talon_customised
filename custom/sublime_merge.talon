@@ -32,3 +32,9 @@ refactor commit <user.text>:
 test commit <user.text>:
     insert("test: ")
     insert(text)
+stage all:
+    key(ctrl-shift-a)
+do commit:
+    key(ctrl-enter)
+do push:
+    key(f8)
