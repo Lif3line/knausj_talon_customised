@@ -2,13 +2,33 @@ app: merge
 app: sublime merge
 app: Sublime_merge
 -
-feature commit: insert("feat: ")
-breaking feature commit: insert("feat!: ")
-fix commit: insert("fix: ")
-build commit: insert("build: ")
-chore commit: insert("chore: ")
-ci commit: insert("ci: ")
-docs commit: insert("docs: ")
-style commit: insert("style: ")
-refactor commit: insert("refactor: ")
-test commit: insert("test: ")
+feature commit <user.text>:
+    insert("feat: ")
+    insert(text)
+breaking feature commit <user.text>:
+    insert("feat!: ")
+    insert(text)
+fix commit <user.text>:
+    insert("fix: ")
+    insert(text)
+build commit <user.text>:
+    insert("build: ")
+    insert(text)
+chore commit <user.text>:
+    insert("chore: ")
+    insert(text)
+ci commit <user.text>:
+    insert("ci: ")
+    insert(text)
+docs commit <user.text>:
+    insert("docs: ")
+    insert(text)
+style commit <user.text>:
+    insert("style: ")
+    insert(text)
+refactor commit <user.text>:
+    insert("refactor: ")
+    insert(text)
+test commit <user.text>:
+    insert("test: ")
+    insert(text)
