@@ -1,5 +1,6 @@
 app: merge
 app: sublime merge
+app: Sublime_merge
 -
 feature commit: insert("feat: ")
 breaking feature commit: insert("feat!: ")
