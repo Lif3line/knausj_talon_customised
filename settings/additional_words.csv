@@ -31,9 +31,13 @@ GPT3,GPT three
 ChatGPT,chat GPT
 GitLab
 reddit
-site:reddit.com, site reddit
-site:reddit.com, sight reddit
+site:reddit.com,site reddit
+site:reddit.com,sight reddit
 yaml
 yml
 json
 IQ
+prod
+dev
+CI/CD,ci cd
+CI/CD,si cd
