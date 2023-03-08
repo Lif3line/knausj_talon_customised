@@ -17,7 +17,7 @@ build commit <user.text>:
 chore commit <user.text>:
     insert("chore: ")
     insert(text)
-ci commit <user.text>:
+[ci|si] commit <user.text>:
     insert("ci: ")
     insert(text)
 docs commit <user.text>:
@@ -37,4 +37,12 @@ stage all:
 do commit:
     key(ctrl-enter)
 do push:
+    key(f8)
+do commit and push:
+    key(ctrl-enter)
+    key(f8)
+upload everything:
+    key(ctrl-shift-a)
+    sleep(100ms)
+    key(ctrl-enter)
     key(f8)
