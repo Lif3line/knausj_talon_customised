@@ -29,10 +29,10 @@ comment <user.text>$:
     #.talon supports implementing actions with parameters?
     edit.line_end()
     user.code_comment_line_prefix()
-    insert(user.text)
+    user.insert_formatted(user.text, "CAPITALIZE_FIRST_WORD")
 (line | inline) comment <user.text>$:
     #todo: this should probably be a single function once
     #.talon supports implementing actions with parameters?
     edit.line_end()
     user.code_comment_line_prefix()
-    insert(user.text)
+    user.insert_formatted(user.text, "CAPITALIZE_FIRST_WORD")
