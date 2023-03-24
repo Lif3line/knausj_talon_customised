@@ -19,15 +19,15 @@ GPS
 ADC
 LED
 LEDs
-RFCOM
-RFCOM
+rfcom
 UART
 SoC
-SDK8, SDK eight
-Nextbase
+sdk8, SDK eight
+nextbase
 nxtb
-GPT
-GPT3,GPT three
+gpt
+gpt3,GPT three
+gpt4,GPT four
 ChatGPT,chat GPT
 GitLab
 reddit
@@ -36,8 +36,13 @@ site:reddit.com,sight reddit
 yaml
 yml
 json
-IQ
+iq
 prod
 dev
 CI/CD,ci cd
 CI/CD,si cd
+ssh
+schema
+schemas
+uuid
+TODO:, to do colon
