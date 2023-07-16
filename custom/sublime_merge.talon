@@ -46,3 +46,7 @@ upload everything:
     sleep(100ms)
     key(ctrl-enter)
     key(f8)
+next:
+    key(ctrl-tab)
+back:
+    key(ctrl-shift-tab)
