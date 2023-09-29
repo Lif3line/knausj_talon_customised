@@ -177,7 +177,7 @@ code_formatter_names = {
     "dotted": "DOT_SEPARATED",
     "dub string": "DOUBLE_QUOTED_STRING",
     "dunder": "DOUBLE_UNDERSCORE",
-    "grave string": formatters_dict["GRAVE_QUOTED_STRING"],
+    "grave string": "GRAVE_QUOTED_STRING",
     "hammer": "PUBLIC_CAMEL_CASE",
     "kebab": "DASH_SEPARATED",
     "packed": "DOUBLE_COLON_SEPARATED",
